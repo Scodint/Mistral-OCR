@@ -31,14 +31,8 @@ pip install -r requirements.txt
 ```
 
 **3. إعداد متغيرات البيئة (Set Up Environment Variables):**
-هذه هي أهم خطوة لحماية مفتاح API الخاص بك.
 
--   أولاً، قم بإنشاء نسخة من ملف القالب `.env.example`:
-    ```bash
-    cp .env.example .env
-    ```
-
--   ثانياً، افتح ملف `.env` الجديد الذي تم إنشاؤه باستخدام أي محرر نصوص، وأضف مفتاح Mistral API الخاص بك.
+-   ثانياً، افتح ملف `.env` وأضف مفتاح Mistral API الخاص بك.
     ```ini
     # .env
     MISTRAL_API_KEY="sk-YOUR_REAL_API_KEY_HERE"
