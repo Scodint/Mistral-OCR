@@ -1,0 +1,3 @@
+# المكتبات التي يحتاجون لتثبيتها
+mistralai
+python-dotenv
